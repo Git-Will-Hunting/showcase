@@ -1,28 +1,59 @@
-/* Color palette: https://davidmathlogic.com/colorblind/#%23B9225C-%23FBBF0B-%23C57717-%236BA37B-%232FAD53-%2312631A-%23712A8A-%23A4418D
+/* Color palette: https://davidmathlogic.com/colorblind/#%23B9225C-%23ffd900-%23C57717-%236BA37B-%232FAD53-%2312631A-%23712A8A-%23A4418D
+off-white: #F8EFD8;
+yellow: #ffd900;
+orange: #C57717;
+green: #6BA37B;
+blue: #2fad53;
+dark green: #12631A;
+purple: #712A8A;
+pink: #A4418D;
 */
 
 .colortest {
     color: #B9225C;
-    color: #FBBF0B;
+    color: #ffd900;
     color: #C57717;
     color: #6BA37B;
     color: #2fad53;
-    color: #12631A;
+    color: #4CAF50;
     color: #712A8A;
     color: #A4418D;
 }
 
-body {
+html {
+    box-sizing: border-box;
     background: #F8EFD8;
-    color: #333;
-    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-size: 14px;
-    line-height: 1.42857143;
+    font-family: 'helvetica neue';
+    font-size: 20px;
+    font-weight: 200;
+  }
+  
+  body {
     margin: 0;
+  }
+
+*, *:before, *:after {
+    box-sizing: inherit;
 }
+
+.site-wrap {
+    max-width: 700px;
+    margin: 70px auto;
+    background: #F8EFD8;
+    padding: 40px;
+    text-align: justify;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
+    transform: scale(0.98);
+    transition: transform 0.5s;
+  }
+  
+  body.fixed-nav .site-wrap {
+    transform: scale(1);
+  }
+
 header {
-    background-color: #FBBF0B;
-    border-bottom: 1px solid #C57717;
+    background-color: #ffd900;
+    border-bottom: 3px solid #c57717;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -31,18 +62,18 @@ header {
 }
 
 header > h1 > a {
-    color: #12631A;
+    color: #4CAF50;
     text-decoration: none;
 }
 
 header > h1 {
     font-size: 6vh;
-    color: #12631A;
-    text-shadow: 3px 4px 0 rgba(47, 173, 83, 0.5);
+    color: #4CAF50;
+    text-shadow: 3px 4px 0 rgba(197, 119, 23, 0.5);
 }
 
 nav {
-    background: #12631A;
+    background: #4CAF50;
     top: 0;
     width: 100%;
     transition: all 0.5s;
@@ -73,14 +104,14 @@ nav li {
 li.logo {
     max-width: 0;
     overflow: hidden;
-    background: #FBBF0B;
+    background: #ffd900;
     transition: all 0.5s;
     font-weight: 600;
     font-size: 30px;
 }
 
 li.logo a {
-    color: #12631A;
+    color: #4CAF50;
 }
 
 .fixed-nav li.logo {
@@ -90,7 +121,7 @@ li.logo a {
 nav a {
     text-decoration: none;
     text-transform: uppercase;
-    color: #FBBF0B;
+    color: #ffd900;
     display: block;
     transition: all 0.5s;
     padding: 1em 0;

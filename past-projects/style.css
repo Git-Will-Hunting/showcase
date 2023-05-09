@@ -1,0 +1,26 @@
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+}
+
+table {
+    display: flex;
+    flex-direction: column;
+    border-collapse: collapse;
+    
+    width: 95%;
+}
+th {
+    background-color: #4CAF50;
+    color: #F8EFD8;
+    text-align: left;
+    padding: 18px;
+}
+
+td {
+    text-align: left;
+    padding: 8px;
+}
