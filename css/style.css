@@ -1,0 +1,98 @@
+/* Color palette: https://davidmathlogic.com/colorblind/#%23B9225C-%23FBBF0B-%23C57717-%236BA37B-%232FAD53-%2312631A-%23712A8A-%23A4418D
+*/
+
+.colortest {
+    color: #B9225C;
+    color: #FBBF0B;
+    color: #C57717;
+    color: #6BA37B;
+    color: #2fad53;
+    color: #12631A;
+    color: #712A8A;
+    color: #A4418D;
+}
+
+body {
+    background: #F8EFD8;
+    color: #333;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    margin: 0;
+}
+header {
+    background-color: #FBBF0B;
+    border-bottom: 1px solid #C57717;
+    height: 40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+header > h1 > a {
+    color: #12631A;
+    text-decoration: none;
+}
+
+header > h1 {
+    font-size: 6vh;
+    color: #12631A;
+    text-shadow: 3px 4px 0 rgba(47, 173, 83, 0.5);
+}
+
+nav {
+    background: #12631A;
+    top: 0;
+    width: 100%;
+    transition: all 0.5s;
+    position: relative;
+    z-index: 1;
+}
+
+body.fixed-nav nav {
+    position: fixed;
+    box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+}
+
+nav li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+li.logo {
+    max-width: 0;
+    overflow: hidden;
+    background: #FBBF0B;
+    transition: all 0.5s;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+li.logo a {
+    color: #12631A;
+}
+
+.fixed-nav li.logo {
+    max-width: 500px;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #FBBF0B;
+    display: block;
+    transition: all 0.5s;
+    padding: 1em 0;
+    font-size: 20px;
+}
