@@ -1,0 +1,124 @@
+{
+  "projects": [
+    {
+      "title": "Portfolio Website",
+      "repo": "https://github.com/git-will-hunting/showcase",
+      "liveSite": "https://git-will-hunting.github.io/showcase/",
+      "skills": [
+        "HTML, CSS, JavaScript, JSON"
+      ],
+      "description": "This project is a portfolio website to showcase my projects. The goal of this project is to practice building a fully functioning website using HTML, CSS, and JavaScript without a guiding example. This project is intended to provide a browsable collection of my projects and to give me a place to practice.",
+      "date": "2023-05-11"
+    },
+    {
+      "title": "Tic Tac Toe",
+      "repo": "https://github.com/git-will-hunting/ruby-ttt",
+      "liveSite": "https://repl.it/@WillHunting/ruby-ttt",
+      "skills": [
+        "Ruby, Object-Oriented Programming"
+      ],
+      "description": "This project is a command-line tic-tac-toe game. The goal of this project is to practice object-oriented programming in Ruby. This project is intended to provide a fun game to play and to give me a place to practice.",
+      "date": "2023-04-29"
+    },
+    {
+      "title": "Rock Paper Scissors",
+      "repo": "https://github.com/git-will-hunting/RPS-game",
+      "liveSite": "https://git-will-hunting.github.io/RPS-game/",
+      "skills": [
+        "HTML, CSS, JavaScript, Git"
+      ],
+      "description": "This project is a browser version of the classic game Rock Paper Scissors. The goal of this project is to practice linking buttons to JavaScript functions. Later this project was revisited to add a UI to the game. Which was a great experience to learn about branching to add features.",
+      "date": "2023-04-07"
+    },
+    {
+      "title": "Etch-a-Sketch",
+      "repo": "https://github.com/git-will-hunting/etch-a-sketch",
+      "liveSite": "https://git-will-hunting.github.io/etch-a-sketch/",
+      "skills": [
+        "HTML, CSS, JavaScript, Git"
+      ],
+      "description": "This project is a browser version of something between a sketchpad and an Etch-A-Sketch. The goal of this project is to practice DOM manipulation with JavaScript.",
+      "date": "2023-04-07"
+    },
+    {
+      "title": "Calculator",
+      "repo": "https://github.com/git-will-hunting/calculator",
+      "liveSite": "https://git-will-hunting.github.io/calculator/",
+      "skills": [
+        "HTML, CSS, JavaScript, Git"
+      ],
+      "description": "This project is a browser version of a calculator. The goal of this project is to practice building a fully functioning app without a guiding example and to further practice DOM manipulation with JavaScript.",
+      "date": "2023-04-07"
+    },
+    {
+      "title": "Recipe Book",
+      "repo": "https://github.com/Git-Will-Hunting/odin-recipes",
+      "liveSite": "https://git-will-hunting.github.io/odin-recipes/",
+      "skills": [
+        "HTML"
+      ],
+      "description": "This is my first coding project which is a recipe book. The goal of this project is to practice HTML by building a simple website.",
+      "date": "2023-01-11"
+    },
+    {
+      "title": "JavaScript30",
+      "repo": "https://github.com/Git-Will-Hunting/JavaScript30",
+      "liveSite": "https://git-will-hunting.github.io/JavaScript30/",
+      "skills": [
+        "HTML, CSS, JavaScript"
+      ],
+      "description": "This project is a collection of 30 small projects that are built with vanilla JavaScript. The goal of this project is to practice JavaScript and learn how to use it to manipulate the DOM. These skills were foundational and used in future projects.",
+      "date": "2023-04-06"
+    },
+    {
+      "title": "Mastermind",
+      "repo": "https://github.com/Git-Will-Hunting/ruby-mastermind",
+      "liveSite": "https://replit.com/@gitwillhunting/Mastermind",
+      "skills": [
+        "Ruby, Object-Oriented Programming, Git"
+      ],
+      "description": "This project is a command line version of the classic game Mastermind. The goal of this project is to practice building a fully functioning app using Ruby without a guiding example. This project was a great experience to practice using classes and methods, pull requests, issue creation, branching, and merging.",
+      "date": "2023-05-08"
+    },
+    {
+      "title": "CSS Exercises",
+      "repo": "https://github.com/git-will-hunting/css-exercises",
+      "liveSite": "#",
+      "skills": [
+        "CSS"
+      ],
+      "description": "This project is a collection of CSS exercises. These provide practice with specific CSS syntax.",
+      "date": "2023-03-03"
+    },
+    {
+      "title": "The Odin Project Landing Page",
+      "repo": "https://github.com/git-will-hunting/Odin-Project-Landing-Page",
+      "liveSite": "https://git-will-hunting.github.io/Odin-Project-Landing-Page/",
+      "skills": [
+        "HTML, CSS, Git"
+      ],
+      "description": "In this project the goal is to rebuild a website style given the desired outcome image but not provided with any HTML or CSS. This was a great experience to learn how to build a website. I also was learning how to create repositories, write commit messages, and push to GitHub.",
+      "date": "2023-02-19"
+    },
+    {
+      "title": "JavaScript Exercises",
+      "repo": "https://github.com/git-will-hunting/javascript-exercises",
+      "liveSite": "#",
+      "skills": [
+        "JavaScript"
+      ],
+      "description": "This project is a collection of JavaScript exercises. These provide practice with specific JavaScript syntax and DOM manipulation.",
+      "date": "2023-04-07"
+    },
+    {
+      "title": "Ruby Exercises",
+      "repo": "https://github.com/git-will-hunting/ruby-exercises",
+      "liveSite": "#",
+      "skills": [
+        "Ruby"
+      ],
+      "description": "This project is a collection of Ruby exercises. These provide practice with specific Ruby syntax and writing methods that will be used later.",
+      "date": "2023-05-08"
+    }
+  ]
+}
