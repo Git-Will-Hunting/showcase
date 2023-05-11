@@ -74,8 +74,7 @@ header > h1 > a {
 }
 
 header > h1 {
-    font-size: 6vh;
-    color: #2A90CB;
+    font-size: 6vw;
     text-shadow: 3px 4px 0 rgba(240, 135, 0, 0.4);
 }
 
@@ -88,7 +87,7 @@ nav {
     z-index: 1;
 }
 
-body.fixed-nav nav {
+.fixed-nav nav {
     position: fixed;
     box-shadow: 0 5px 0 rgba(0, 0, 0, 0.1);
 }
@@ -114,7 +113,7 @@ li.logo {
     background: #7EE9F1;
     transition: all 0.5s;
     font-weight: 600;
-    font-size: 3vh;
+    font-size: 30px;
 }
 
 li.logo a {
@@ -132,7 +131,6 @@ nav a {
     display: block;
     transition: all 0.5s;
     padding: 1em 0;
-    font-size: 3vw;
-    font-weight: 600;
+    font-weight: 300;
 }
 
