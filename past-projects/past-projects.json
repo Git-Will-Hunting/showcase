@@ -11,17 +11,19 @@
         "JSON"
       ],
       "Description": "This project is a portfolio website to showcase my projects. The goal of this project is to practice building a fully functioning website using HTML, CSS, and JavaScript without a guiding example. This project is intended to provide a browsable collection of my projects and to give me a place to practice.",
+      "Image": "./Images/Showcase.png",
       "Date": "2023-05-11"
     },
     {
       "Project Title": "Tic Tac Toe",
       "Repository": "https://github.com/git-will-hunting/ruby-ttt",
-      "Live Demo": "https://repl.it/@WillHunting/ruby-ttt",
+      "Live Demo": "https://repl.it/@gitwillHunting/ruby-ttt",
       "Skills": [
         "Ruby",
         "Object-Oriented Programming"
       ],
       "Description": "This project is a command-line tic-tac-toe game. The goal of this project is to practice object-oriented programming in Ruby. This project is intended to provide a fun game to play and to give me a place to practice.",
+      "Image": "./Images/TicTacToe.png",
       "Date": "2023-04-29"
     },
     {
@@ -35,6 +37,7 @@
         "Git"
       ],
       "Description": "This project is a browser version of the classic game Rock Paper Scissors. The goal of this project is to practice linking buttons to JavaScript functions. Later this project was revisited to add a UI to the game. Which was a great experience to learn about branching to add features.",
+      "Image": "./Images/RPS.png",
       "Date": "2023-04-07"
     },
     {
@@ -48,6 +51,7 @@
         "Git"
       ],
       "Description": "This project is a browser version of something between a sketchpad and an Etch-A-Sketch. The goal of this project is to practice DOM manipulation with JavaScript.",
+      "Image": "./Images/Etch-a-Sketch.png",
       "Date": "2023-04-07"
     },
     {
@@ -61,6 +65,7 @@
         "Git"
       ],
       "Description": "This project is a browser version of a calculator. The goal of this project is to practice building a fully functioning app without a guiding example and to further practice DOM manipulation with JavaScript.",
+      "Image": "./Images/Calculator.png",
       "Date": "2023-04-07"
     },
     {
@@ -71,6 +76,7 @@
         "HTML"
       ],
       "Description": "This is my first coding project which is a recipe book. The goal of this project is to practice HTML by building a simple website.",
+      "Image": "./Images/Recipe-Book.png",
       "Date": "2023-01-11"
     },
     {
@@ -83,6 +89,7 @@
         "JavaScript"
       ],
       "Description": "This project is a collection of 30 small projects that are built with vanilla JavaScript. The goal of this project is to practice JavaScript and learn how to use it to manipulate the DOM. These Skills were foundational and used in future projects.",
+      "Image": "./Images/JavaScript30.png",
       "Date": "2023-04-06"
     },
     {
@@ -95,6 +102,7 @@
         "Git"
       ],
       "Description": "This project is a command line version of the classic game Mastermind. The goal of this project is to practice building a fully functioning app using Ruby without a guiding example. This project was a great experience to practice using classes and methods, pull requests, issue creation, branching, and merging.",
+      "Image": "./Images/Mastermind.png",
       "Date": "2023-05-08"
     },
     {
@@ -105,6 +113,7 @@
         "CSS"
       ],
       "Description": "This project is a collection of CSS exercises. These provide practice with specific CSS syntax. There is no live demo for this project because it is a collection of exercises.",
+      "Image": "./Images/CSS.png",
       "Date": "2023-03-03"
     },
     {
@@ -117,6 +126,7 @@
         "Git"
       ],
       "Description": "In this project the goal is to rebuild a website style given the desired outcome image but not provided with any HTML or CSS. This was a great experience to learn how to build a website. I also was learning how to create Repositorysitories, write commit messages, and push to GitHub.",
+      "Image": "./Images/Landing-Page.png",
       "Date": "2023-02-19"
     },
     {
@@ -127,6 +137,7 @@
         "JavaScript"
       ],
       "Description": "This project is a collection of JavaScript exercises. These provide practice with specific JavaScript syntax and DOM manipulation.",
+      "Image": "./Images/JS.png",
       "Date": "2023-04-07"
     },
     {
@@ -137,6 +148,7 @@
         "Ruby"
       ],
       "Description": "This project is a collection of Ruby exercises. These provide practice with specific Ruby syntax and writing methods that will be used later.",
+      "Image": "./Images/Ruby.jpeg",
       "Date": "2023-05-08"
     }
   ]

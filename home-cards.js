@@ -60,8 +60,30 @@ function createCards(projects){
     // create a new card
     const card = document.createElement('div');
     card.classList.add('card');
+    // if the Live demo is not available, display "N/A"
+    if (project["Live Demo"] === "#") {
+      card.innerHTML = `
+      <div class="card-header">
+        <div class="card-image">
+          <img src="${project.Image}" alt="${project["Project Title"]}">
+        </div>
+        <h3>${project["Project Title"]}</h3>
+      </div>
+      <div class="card-body">
+        <p>${project.Description}</p>
+        <p><strong>Skills:</strong> ${project.Skills.join(', ')}</p>
+      </div>
+      <div class="card-footer">
+        <a href="${project.Repository}" target="_blank">Repo</a>
+        <a>Demo not available</a>
+      </div>
+      `;
+    } else {
     card.innerHTML = `
       <div class="card-header">
+        <div class="card-image">
+          <img src="${project.Image}" alt="${project["Project Title"]}">
+        </div>
         <h3>${project["Project Title"]}</h3>
       </div>
       <div class="card-body">
@@ -73,6 +95,7 @@ function createCards(projects){
         <a href="${project["Live Demo"]}" target="_blank">Demo</a>
       </div>
       `;
+    }
     // append the card to the container
     cardsContainer.appendChild(card);
   });

@@ -8,6 +8,8 @@ fetch('./past-projects.json')
     const headerRow = document.createElement('tr');
     // loop through the columns in the first row of the data
     Object.keys(data.projects[0]).forEach(column => {
+      // don't create a column for the image
+      if (column === 'Image') return;
       // create a new cell for each column
       const tableHeader = document.createElement('th');
       // set the text content of the cell to the column name
@@ -40,6 +42,20 @@ table.querySelector('thead').addEventListener('click', event => {
       // create a new cell for each column 
       // When new fields are added to the JSON they should be added here to be displayed
       const tableData = document.createElement('td');
+
+      // if the Live demo is not available, display "N/A"
+      if (project["Live Demo"] === "#") {
+        row.innerHTML = `
+        <td>${project["Project Title"]}</td>
+        <td><a href="${project.Repository}" target="_blank">Repo</a></td>
+        <td>N/A</td>
+        <td>${project.Skills.join(', ')}</td>
+        <td>${project.Description}</td>
+        <td>${project.Date}</td>
+        `;
+      }
+      // if the Live demo is available, display the link
+      else {
       row.innerHTML = `
         <td>${project["Project Title"]}</td>
         <td><a href="${project.Repository}" target="_blank">Repo</a></td>
@@ -48,6 +64,7 @@ table.querySelector('thead').addEventListener('click', event => {
         <td>${project.Description}</td>
         <td>${project.Date}</td>
         `;
+      }
       // append the row to the table body
       tableBody.appendChild(row);
     });
@@ -63,12 +80,12 @@ function fixTableHeaders() {
 var tableRows = document.querySelectorAll("tr");
 
 tableRows.forEach(row => {
-  row.cells[0].style.width = "12%";
+  row.cells[0].style.width = "14%";
   row.cells[1].style.width = "8%";
   row.cells[2].style.width = "8%";
-  row.cells[3].style.width = "10%";
-  row.cells[4].style.width = "auto";
-  row.cells[5].style.width = "8%";
+  row.cells[3].style.width = "14%";
+  row.cells[4].style.width = "50%";
+  row.cells[5].style.width = "6%";
 });
 }
 
