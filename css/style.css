@@ -28,7 +28,7 @@ sky blue    color: #2A90CB;
 
 html {
     box-sizing: border-box;
-    background: #F8EFD8;
+    background: #ADADFF;
     color: #2D3739;
     font-family: 'helvetica neue';
     font-size: 20px;
@@ -46,7 +46,7 @@ html {
 .site-wrap {
     max-width: 90%;
     margin: 70px auto;
-    background: #F8EFD8;
+    background: #EBEBFF;
     padding: 40px;
     text-align: justify;
     box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.05);
@@ -59,8 +59,8 @@ html {
   }
 
 header {
-    background-color: #7EE9F1;
-    border-bottom: 3px solid #16BAC5;
+    background-color: #7070FF;
+    border-bottom: 3px solid #2A90CB;
     height: 40vh;
     display: flex;
     align-items: center;
@@ -69,7 +69,7 @@ header {
 }
 
 header > h1 > a {
-    color: #2A90CB;
+    color: #7EE9F1;
     text-decoration: none;
 }
 

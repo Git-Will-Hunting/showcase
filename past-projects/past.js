@@ -55,7 +55,7 @@ table.querySelector('thead').addEventListener('click', event => {
   })
   // catch any errors and log them to the console
   .catch(error => {
-    console.log(error);
+    console.error(error);
   });
 
 function fixTableHeaders() {
