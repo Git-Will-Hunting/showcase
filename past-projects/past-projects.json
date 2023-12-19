@@ -51,7 +51,7 @@
         "Git"
       ],
       "Description": "This project is a browser version of something between a sketchpad and an Etch-A-Sketch. The goal of this project is to practice DOM manipulation with JavaScript.",
-      "Image": "./Images/Etch-a-Sketch.png",
+      "Image": "./Images/Etch-a-sketch.png",
       "Date": "2023-04-07"
     },
     {
@@ -164,6 +164,6 @@
       "Description": "This project is a sign-up form. The goal of this project is to practice HTML, CSS, and JavaScript by building a fully functioning form.",
       "Image": "./Images/sign-up-form.png",
       "Date": "2023-12-18"
-    },
+    }
   ]
 }
