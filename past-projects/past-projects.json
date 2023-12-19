@@ -150,6 +150,20 @@
       "Description": "This project is a collection of Ruby exercises. These provide practice with specific Ruby syntax and writing methods that will be used later.",
       "Image": "./Images/Ruby.jpeg",
       "Date": "2023-05-08"
-    }
+    },
+    {
+      "Project Title": "Sign-up Form",
+      "Repository": "https://github.com/git-will-hunting/sign-up-form",
+      "Live Demo": "https://git-will-hunting.github.io/sign-up-form/",
+      "Skills": [
+        "HTML", 
+        "CSS", 
+        "Git",
+        "JavaScript"
+      ],
+      "Description": "This project is a sign-up form. The goal of this project is to practice HTML, CSS, and JavaScript by building a fully functioning form.",
+      "Image": "./Images/sign-up-form.png",
+      "Date": "2023-12-18"
+    },
   ]
 }
